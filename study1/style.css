@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    margin-top: 45vh;
+    width: 20%;
+    height: 10vh;
+    font-size: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all .5s ease-in-out;
+}
+
+button:hover {
+    background-color: #000;
+    color: #FFF;
+}
